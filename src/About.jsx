@@ -1,5 +1,5 @@
 import React from "react";
-import abtimg from "./assets/abtimg.jpg";
+import abtimg from "./assets/abtimg1.jpeg";
 
 function About() {
   return (
