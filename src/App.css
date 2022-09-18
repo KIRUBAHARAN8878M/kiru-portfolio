@@ -1,38 +1,309 @@
-.App {
-  text-align: center;
+body{
+   background: #E0EAFC!important;
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC)!important;
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC)!important;
+}
+#kiru{
+  font-family:'Great Vibes', cursive !important;
+  
+}
+li a:hover {
+
+  text-decoration: underline #008fac !important;
+  font-weight: bolder !important;
+  scale: 1.01 !important;
+  transform: 0.2s;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mynav {
+  background-color: whitesmoke !important;
+  
+  box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.75) inset !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.myname {
+  background: linear-gradient(90deg, #56ccf2, #2f80ed);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 2s linear infinite;
+}
+@keyframes hue {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(1turn);
+    filter: hue-rotate(1turn);
   }
 }
+#hero {
+ 
+  height: 90vh;
+  /* background: #E0EAFC!important;
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC)!important;
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC)!important; */
+  
+border:none;
+}
+#portfolio{
+  /* background: #E0EAFC!important;
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC)!important;
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC)!important; */
+    border: none;
+}
+#contact{
+  /* background: #E0EAFC!important;
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC)!important;
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC)!important; */
+  border: none;
+}
+#about{
+  /* background: #E0EAFC!important;
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC)!important;
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC)!important; */
+  border: none;
+}
+#skill{
+  /* background: #E0EAFC!important;
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC)!important;
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC)!important; */
+  border: none;
+}
+.contact {
+  padding-bottom: 130px;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info .i {
+  font-size: 5px;
+  color: #149ddd;
+  float: left;
+  width: 35px;
+  height: 35px;
+  background: #dff3fc;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
 }
 
-@keyframes App-logo-spin {
-  from {
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+
+.contact .info .email p {
+  padding-top: 5px;
+}
+
+.contact .info .social-links {
+  padding-left: 60px;
+}
+
+.contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+}
+
+.contact .info .email:hover .i,
+.contact .info .address:hover .i,
+.contact .info .phone:hover .i {
+  background: #149ddd;
+  color: #fff;
+}
+
+.contact .mail-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .mail-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .mail-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .mail-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .mail-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .mail-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .mail-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .mail-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .mail-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact .mail-form label {
+  padding-bottom: 8px;
+}
+
+.contact .mail-form input,
+.contact .mail-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .mail-form input {
+  height: 44px;
+}
+
+.contact .mail-form textarea {
+  padding: 10px 15px;
+}
+
+.contact .mail-form button[type=submit] {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .mail-form button[type=submit]:hover {
+  background: #37b3ed;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+
+  100% {
     transform: rotate(360deg);
   }
 }
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #0e2442;
+  content: "/";
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+
+  .breadcrumbs ol {
+    display: block;
+  }
+
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
+
+
+
+
+
+
+
