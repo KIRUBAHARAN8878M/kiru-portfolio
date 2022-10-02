@@ -32,16 +32,16 @@ function Home() {
               </a>
             </div>
             <div className="text-center pt-4 ">
-                <a class="btn text-dark btn-md  btn-floating mx-2" style={{backgroundColor: "whitesmoke"}} href="https://www.linkedin.com/in/kirubaharan-m-116b36234" role="button">
+                <a class="btn text-dark btn-md  btn-floating mx-2"  target = "_blank" style={{backgroundColor: "whitesmoke"}} href="https://www.linkedin.com/in/kirubaharan-m-116b36234" role="button">
                      <FontAwesomeIcon className='fab fa-linkedin-in' icon={faLinkedinIn} />
                 </a>
-                <a class="btn text-dark btn-md  btn-floating mx-2"  style={{backgroundColor: "whitesmoke"}} href="https://github.com/KIRUBAHARAN8878M" role="button">
+                <a class="btn text-dark btn-md  btn-floating mx-2" target = "_blank"  style={{backgroundColor: "whitesmoke"}} href="https://github.com/KIRUBAHARAN8878M" role="button">
                     <FontAwesomeIcon className='fab fa-github' icon={faGithub} />
                 </a>
-                <a class="btn text-dark btn-md  btn-floating mx-2" style={{backgroundColor: "whitesmoke"}} href="#!" role="button">
+                <a class="btn text-dark btn-md  btn-floating mx-2" target = "_blank" style={{backgroundColor: "whitesmoke"}} href="https://wa.me/+918489671064" role="button">
                     <FontAwesomeIcon className='fab fa-whatsapp' icon={faWhatsapp} />
                 </a>
-                <a class="btn text-dark btn-md  btn-floating mx-2"  style={{backgroundColor: "whitesmoke"}} href="mailto:kirubaharan8878m@gmail.com" role="button">
+                <a class="btn text-dark btn-md  btn-floating mx-2"  target = "_blank" style={{backgroundColor: "whitesmoke"}} href="https://mail.google.com/mail/u/0/?hl=en-GB&tf=cm&fs=1&to=kirubaharan8878m@gmail.com"  role="button">
                     <FontAwesomeIcon className='fas fa-envelope' icon={faEnvelope} />
                 </a>
             </div> 
